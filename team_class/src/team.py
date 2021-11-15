@@ -3,6 +3,7 @@ class Team:
         self.name = name
         self.players = players
         self.coach = coach
+        self.points = 0
 
     def add_player(self, player):
         self.players.append(player)
@@ -10,5 +11,4 @@ class Team:
     def has_player(self, player):
         return player in self.players
 
-    
 
